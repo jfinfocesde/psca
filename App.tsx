@@ -83,6 +83,9 @@ const App: React.FC = () => {
         <p className="text-slate-500 mt-1 text-xs md:text-sm">
           por Maria Juliana Valencia Moreno y Nicole Álvarez Casas
         </p>
+        <p className="text-slate-500 mt-1 text-xs md:text-sm">
+          I.E San Luis Gonzaga, 11°-3 
+        </p>
       </header>
 
       <main className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
