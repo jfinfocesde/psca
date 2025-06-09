@@ -1,0 +1,5 @@
+{
+  "name": "Simulador de Contaminación del Aire",
+  "description": "Una aplicación que muestre cómo la contaminación (humo, polvo, etc.) afecta la calidad del aire en una ciudad virtual. Los niños pueden 'agregar' fuentes de contaminación (fábricas, autos) o soluciones (árboles, energía renovable) y ver cómo cambia el aire.",
+  "requestFramePermissions": []
+}

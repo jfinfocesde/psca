@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Contaminación del Aire</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sky: {
+              'good': '#87CEEB', // Light Sky Blue
+              'moderate': '#A2D2FF', // Lighter Blue
+              'sensitive': '#BDE0FE', // Paler Blue
+              'unhealthy': '#gray-400', // Light Gray
+              'veryunhealthy': '#A9A9A9', // Dark Gray
+              'hazardous': '#696969', // Dim Gray
+            },
+            haze: {
+              'moderate': 'rgba(200, 200, 200, 0.3)', // Light gray haze
+              'sensitive': 'rgba(180, 180, 160, 0.4)', // Yellowish-gray haze
+              'unhealthy': 'rgba(150, 140, 130, 0.5)', // Brownish-gray haze
+              'veryunhealthy': 'rgba(120, 110, 100, 0.6)', // Darker brownish-gray
+              'hazardous': 'rgba(100, 90, 80, 0.7)', // Very dark smog
+            }
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
