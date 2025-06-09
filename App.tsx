@@ -81,7 +81,7 @@ const App: React.FC = () => {
           Proyecto Feria de la Ciencia 2025
         </p>
         <p className="text-slate-500 mt-1 text-xs md:text-sm">
-          por Maria Juliana Valencia Moreno y Nicole Álvarez Casas
+          por Maria Juliana Valencia Moreno, Nicole Álvarez Casas y Miguel Medina
         </p>
         <p className="text-slate-500 mt-1 text-xs md:text-sm">
           I.E San Luis Gonzaga, 11°-3 
